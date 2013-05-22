@@ -109,7 +109,7 @@ def conf_update_cb(data, option, value):
     
 def confversion_cmd(data, buffer, args):
     commit_cb()
-    return weechat.WEECHAT_RC_O
+    return weechat.WEECHAT_RC_OK
 
 if weechat.register(SCRIPT_NAME, SCRIPT_AUTHOR, SCRIPT_VERSION, SCRIPT_LICENSE,
                     SCRIPT_DESC, "", ""):
